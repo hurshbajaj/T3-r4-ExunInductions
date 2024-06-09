@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    height: 80vh;
+
+    margin-top: 90px;
+}
+.square{
+    height: 40px;
+    width: 40px;
+    border: solid;
+    border-width: 1px;
+    background-color: white;
+    font-size: 35px;
+}
+.gameBoardA{
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    column-gap: 0;
+    row-gap: 0;
+}
